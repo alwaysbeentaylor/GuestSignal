@@ -68,7 +68,7 @@ export default function Footer() {
                 <div className="container py-6">
                     <div className="flex flex-col md:flex-row items-center justify-between gap-4">
                         <p className="text-sm text-gray-600">
-                            © {currentYear} GuestSignal. Onderdeel van SKYE Unlimited.
+                            © {currentYear} Guest Signals. Onderdeel van SKYE Unlimited.
                         </p>
                         <div className="flex items-center gap-6">
                             <span className="flex items-center gap-2 text-sm text-gray-600">

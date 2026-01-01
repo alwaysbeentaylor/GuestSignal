@@ -4,7 +4,7 @@ import { useState } from 'react';
 const faqs = [
     {
         question: "Welke informatiebronnen worden gebruikt?",
-        answer: "GuestSignal doorzoekt uitsluitend publiek beschikbare bronnen: LinkedIn profielen, bedrijfswebsites, nieuwsartikelen, en open social media profielen. We hebben geen toegang tot privéaccounts of beveiligde informatie."
+        answer: "Guest Signals doorzoekt uitsluitend publiek beschikbare bronnen: LinkedIn profielen, bedrijfswebsites, nieuwsartikelen, en open social media profielen. We hebben geen toegang tot privéaccounts of beveiligde informatie."
     },
     {
         question: "Is dit legaal en GDPR-proof?",
@@ -15,7 +15,7 @@ const faqs = [
         answer: "Onze categorisering is gebaseerd op objectieve criteria: functieniveau, bedrijfsgrootte, terugkerend bezoek, en andere meetbare factoren. We geven altijd inzicht in waarom iemand een bepaalde categorie krijgt, zodat uw team zelf kan beslissen hoe te handelen."
     },
     {
-        question: "Kan GuestSignal integreren met ons PMS?",
+        question: "Kan Guest Signals integreren met ons PMS?",
         answer: "Ja, we integreren met de meeste gangbare Property Management Systemen zoals Opera, Mews, Apaleo, en Clock PMS. De integratie zorgt ervoor dat gastprofielen automatisch beschikbaar zijn bij de reservering. Custom integraties zijn mogelijk in het Enterprise pakket."
     },
     {
@@ -41,7 +41,7 @@ export default function FAQ() {
                         <span className="text-gold-gradient">vragen</span>
                     </h2>
                     <p className="text-gray-400 text-lg">
-                        Alles wat u wilt weten over GuestSignal, in het kort.
+                        Alles wat u wilt weten over Guest Signals, in het kort.
                     </p>
                 </div>
 

@@ -30,13 +30,13 @@ export default function Navigation() {
                     <a href="#" className="flex items-center gap-3">
                         <Image
                             src="/logo.png"
-                            alt="GuestSignal"
+                            alt="Guest Signals"
                             width={40}
                             height={40}
                             className="rounded-lg"
                         />
                         <span className="font-heading text-xl font-semibold text-white">
-                            Guest<span className="text-gold">Signal</span>
+                            Guest<span className="text-gold"> Signals</span>
                         </span>
                     </a>
 

@@ -1,12 +1,12 @@
 import "./globals.css";
 
 export const metadata = {
-    title: "GuestSignal | Herken Waardevolle Gasten Vóór Aankomst",
-    description: "GuestSignal helpt luxury hotels om belangrijke gasten tijdig te herkennen, service consistent te houden en commerciële kansen niet te missen. GDPR-compliant gastintelligentie.",
+    title: "Guest Signals | Herken Waardevolle Gasten Vóór Aankomst",
+    description: "Guest Signals helpt luxury hotels om belangrijke gasten tijdig te herkennen, service consistent te houden en commerciële kansen niet te missen. GDPR-compliant gastintelligentie.",
     keywords: "hotel guest intelligence, VIP gasten, luxury hotels, hospitality software, guest profiling, hotel technology",
     authors: [{ name: "SKYE Unlimited" }],
     openGraph: {
-        title: "GuestSignal | Herken Waardevolle Gasten Vóór Aankomst",
+        title: "Guest Signals | Herken Waardevolle Gasten Vóór Aankomst",
         description: "Transformeer elke check-in in een gepersonaliseerde ervaring. Ontdek welke gasten VIP-behandeling verdienen.",
         type: "website",
         locale: "nl_NL",

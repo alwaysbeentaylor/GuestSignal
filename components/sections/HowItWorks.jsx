@@ -14,7 +14,7 @@ const steps = [
     {
         number: "02",
         title: "Automatische verrijking",
-        description: "GuestSignal doorzoekt publieke bronnen: LinkedIn profielen, bedrijfsinformatie, nieuwsartikelen. Allemaal legaal en GDPR-proof.",
+        description: "Guest Signals doorzoekt publieke bronnen: LinkedIn profielen, bedrijfsinformatie, nieuwsartikelen. Allemaal legaal en GDPR-proof.",
         icon: (
             <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />

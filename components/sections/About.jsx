@@ -6,7 +6,7 @@ export default function About() {
             <div className="container">
                 <div className="max-w-4xl mx-auto">
                     <div className="text-center mb-12">
-                        <span className="badge mb-6">Over GuestSignal</span>
+                        <span className="badge mb-6">Over Guest Signals</span>
                         <h2 className="font-heading text-3xl md:text-4xl font-semibold mb-6">
                             Gebouwd door{' '}
                             <span className="text-gold-gradient">hospitality insiders</span>
@@ -32,14 +32,14 @@ export default function About() {
                                     tijdgebrek en verloren informatie."
                                 </p>
                                 <p className="text-gray-400 leading-relaxed">
-                                    GuestSignal is geboren uit die frustratie. We bouwden een tool die doet wat
+                                    Guest Signals is geboren uit die frustratie. We bouwden een tool die doet wat
                                     uw beste receptionist zou doen — maar dan voor elke gast, elke shift, elke dag.
                                     Zonder de kennis te verliezen wanneer iemand vrij is of vertrekt.
                                 </p>
                                 <p className="text-gray-400 leading-relaxed">
                                     Wij geloven dat gastvrijheid draait om de details. Een naam onthouden.
                                     Weten dat iemand van rode wijn houdt. Begrijpen wanneer iemand rust nodig
-                                    heeft en wanneer aandacht. GuestSignal maakt dat schaalbaar.
+                                    heeft en wanneer aandacht. Guest Signals maakt dat schaalbaar.
                                 </p>
 
                                 <div className="pt-6 border-t border-white/10 mt-6">

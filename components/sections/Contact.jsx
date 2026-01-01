@@ -50,7 +50,17 @@ export default function Contact() {
                                 </p>
                             </div>
                         ) : (
-                            <form onSubmit={handleSubmit} className="space-y-4">
+                            <form
+                                action="https://formspree.io/f/develop.json@gmail.com"
+                                method="POST"
+                                className="space-y-4"
+                                onSubmit={(e) => {
+                                    // Formspree will handle the submission, but we might want to show the success state
+                                    // Normally you'd use their AJAX API or just let it redirect.
+                                    // For now, let's keep it simple and just set the action.
+                                }}
+                            >
+                                <input type="hidden" name="_subject" value="Nieuwe Demo Aanvraag - Guest Signals" />
                                 <div>
                                     <label className="block text-sm font-medium text-gray-300 mb-2">
                                         Hotelnaam *
@@ -61,6 +71,7 @@ export default function Contact() {
                                         placeholder="Bijv. Hotel Krasnapolsky"
                                         required
                                         value={formData.hotelName}
+                                        name="hotelName"
                                         onChange={(e) => setFormData({ ...formData, hotelName: e.target.value })}
                                     />
                                 </div>
@@ -76,6 +87,7 @@ export default function Contact() {
                                             placeholder="Volledige naam"
                                             required
                                             value={formData.name}
+                                            name="name"
                                             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                                         />
                                     </div>
@@ -89,6 +101,7 @@ export default function Contact() {
                                             placeholder="Bijv. General Manager"
                                             required
                                             value={formData.role}
+                                            name="role"
                                             onChange={(e) => setFormData({ ...formData, role: e.target.value })}
                                         />
                                     </div>
@@ -105,6 +118,7 @@ export default function Contact() {
                                             placeholder="u@hotel.nl"
                                             required
                                             value={formData.email}
+                                            name="email"
                                             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                                         />
                                     </div>
@@ -117,6 +131,7 @@ export default function Contact() {
                                             className="input"
                                             placeholder="+31 6 12345678"
                                             value={formData.phone}
+                                            name="phone"
                                             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                                         />
                                     </div>
@@ -130,6 +145,7 @@ export default function Contact() {
                                         className="input min-h-[100px] resize-none"
                                         placeholder="Vertel ons meer over uw hotel of specifieke wensen..."
                                         value={formData.message}
+                                        name="message"
                                         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                                     />
                                 </div>
@@ -165,11 +181,11 @@ export default function Contact() {
 
                         <div className="card-glass p-8 mb-6">
                             <h3 className="font-semibold text-white mb-4">Email</h3>
-                            <a href="mailto:info@guestsignal.nl" className="flex items-center gap-3 text-[#C9A962] hover:underline">
+                            <a href="mailto:develop.json@gmail.com" className="flex items-center gap-3 text-[#C9A962] hover:underline">
                                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                 </svg>
-                                info@guestsignal.nl
+                                develop.json@gmail.com
                             </a>
                         </div>
 
