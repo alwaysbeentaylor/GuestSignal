@@ -7,7 +7,7 @@ const plans = [
         price: "149",
         description: "Perfect voor kleinere boutique hotels",
         features: [
-            { text: "100 gasten scans per maand", included: true },
+            { text: "500 gasten scans per maand", included: true },
             { text: "Dashboard & gastprofielen", included: true },
             { text: "Gastwaarde-categorieën", included: true },
             { text: "Basis attentie suggesties", included: true },
@@ -24,7 +24,7 @@ const plans = [
         price: "299",
         description: "Voor hotels die service serieus nemen",
         features: [
-            { text: "500 gasten scans per maand", included: true },
+            { text: "1500 gasten scans per maand", included: true },
             { text: "Dashboard & gastprofielen", included: true },
             { text: "Gastwaarde-categorieën", included: true },
             { text: "Geavanceerde attentie suggesties", included: true },
@@ -99,8 +99,8 @@ export default function Pricing() {
                         <div
                             key={index}
                             className={`card relative ${plan.popular
-                                    ? 'border-[#C9A962] md:scale-105 md:-my-4 shadow-xl shadow-[#C9A962]/10'
-                                    : ''
+                                ? 'border-[#C9A962] md:scale-105 md:-my-4 shadow-xl shadow-[#C9A962]/10'
+                                : ''
                                 }`}
                         >
                             {plan.popular && (
