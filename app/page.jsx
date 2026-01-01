@@ -6,7 +6,7 @@ import Features from '@/components/sections/Features';
 import Benefits from '@/components/sections/Benefits';
 import Pricing from '@/components/sections/Pricing';
 import Privacy from '@/components/sections/Privacy';
-import Testimonials from '@/components/sections/Testimonials';
+
 import About from '@/components/sections/About';
 import FAQ from '@/components/sections/FAQ';
 import Contact from '@/components/sections/Contact';
@@ -25,7 +25,7 @@ export default function Home() {
                 <Benefits />
                 <Pricing />
                 <Privacy />
-                <Testimonials />
+
                 <About />
                 <FAQ />
                 <Contact />
